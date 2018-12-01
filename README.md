@@ -1,0 +1,1 @@
+chat mediante solicitudes del servidor
