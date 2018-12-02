@@ -10,8 +10,10 @@
     "author": "Juan Felipe Usuga V",
     "license": "ISC",
     "dependencies": {
+        "express": "*",
         "express-handlebars": "^3.0.0",
         "handlebars": "^4.0.12",
-        "hbs": "^4.0.1"
+        "hbs": "^4.0.1",
+        "body-parser": "*"
     }
 }
