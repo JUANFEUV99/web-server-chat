@@ -26,9 +26,10 @@ let cadena = () => {
 
 app.get('/main', (req, res) => {
     let usr = req.query.user;
-    if (usr != 'undefined') {
+    if (usr != undefined) {
         users.push(usr);
     }
+
     res.render('main', {
         users: cadena()
     });
